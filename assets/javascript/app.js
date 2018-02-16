@@ -1,3 +1,5 @@
+$(document).ready(function() {
+    
 var triviaQuestions = [{
     question: "What is Earth's largest continent?",
     answerList: ["Europe", "Antartica", "Asia", "Africa"],
@@ -132,3 +134,4 @@ function scoreboard() {
     $('#startOverBtn').show();
     $('#startOverBtn').html('Click here to start over!');
 }
+})
