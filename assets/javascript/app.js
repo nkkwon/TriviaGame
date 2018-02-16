@@ -125,9 +125,9 @@ function scoreboard() {
     $('#correctedAnswer').empty();
     $('#gif').empty();
     $('#finalScore').html(messages.finished);
-    $('#correctAnswers').html("Correct Answers: " + correctAnswer);
-    $('#incorrectAnswers').html("Incorrect Answers: " + incorrectAnswer);
-    $('#unanswered').html("Unanswered: " + unanswered);
+    $('#correctAnswers').html("<p>Correct Answers: " + correctAnswer);
+    $('#incorrectAnswers').html("<p>Incorrect Answers: " + incorrectAnswer);
+    $('#unanswered').html("<p>Unanswered: " + unanswered);
     $('#startOverBtn').addClass('reset');
     $('#startOverBtn').show();
     $('#startOverBtn').html('Click here to start over!');
